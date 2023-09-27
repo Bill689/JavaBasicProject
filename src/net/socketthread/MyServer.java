@@ -14,7 +14,6 @@ public class MyServer {
     public static void main(String[] args) throws IOException {
 
         ServerSocket serverSocket =new ServerSocket(30000);
-
         while(true){
             Socket acceptSocket = serverSocket.accept();
             socketList.add(acceptSocket);
