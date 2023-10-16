@@ -1,4 +1,4 @@
-package net.socketthread;
+package net;
 
 import java.io.*;
 import java.net.ServerSocket;
